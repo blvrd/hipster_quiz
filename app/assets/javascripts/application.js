@@ -54,4 +54,7 @@ $(document).ready(function() {
             left: '50%'
 	}, 500);
     });
+    $('input[type="submit"]').last().click(function() {
+	$('progress').css('display', 'block')
+    });
 });

@@ -85,3 +85,7 @@ h1 {
   h1:hover {
     transition: border-bottom .2s;
     border-bottom: 5px solid white; }
+
+progress {
+  position: absolute;
+  display: none; }

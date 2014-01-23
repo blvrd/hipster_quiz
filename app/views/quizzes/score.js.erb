@@ -1,1 +1,1 @@
-$('h1').append(<%= @score.value %>)
+$('progress').attr('value', '<%= @score.value * 10 %>')
