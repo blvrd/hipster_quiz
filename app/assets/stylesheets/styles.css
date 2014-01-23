@@ -62,7 +62,6 @@ body {
   overflow: hidden; }
 
 .box {
-  border: solid black 2px;
   position: absolute;
   width: 50%;
   height: 300px;
