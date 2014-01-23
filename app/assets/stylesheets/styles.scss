@@ -26,6 +26,11 @@ body {
     margin-left: -25%;
     background-color: fade-out(white, .5);
     font-size: 24px;
+    display: block;
+
+    h2 {
+        font-size: 30px;
+    }
 }
 
 #box1 {
