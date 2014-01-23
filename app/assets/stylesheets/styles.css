@@ -88,4 +88,45 @@ h1 {
 
 progress {
   position: absolute;
-  display: none; }
+  display: none;
+  top: 320px;
+  left: 450px !important;
+  font-size: 40px; }
+
+progress[value]::-webkit-progress-value {
+  background: #90739b;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #90739b), color-stop(30%, #ff5334), color-stop(63%, #90739b), color-stop(100%, #ff5334));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90739b', endColorstr='#ff5334',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */ }
+
+progress[value]::-webkit-progress-value::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -125%; }
+
+#hipster_status {
+  font-size: 20px;
+  line-height: 1.5;
+  position: absolute; }
+
+.status {
+  text-align: center;
+  display: none;
+  top: 250px;
+  left: 40% !important;
+  width: 300px;
+  height: 100px;
+  position: relative; }

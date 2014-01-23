@@ -55,6 +55,7 @@ $(document).ready(function() {
 	}, 500);
     });
     $('input[type="submit"]').last().click(function() {
-	$('progress').css('display', 'block')
+	$('progress').css('display', 'block');
+	$('.status').css('display', 'block');
     });
 });
