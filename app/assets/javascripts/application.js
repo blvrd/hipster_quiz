@@ -42,15 +42,15 @@ function changeBackground() {
 
 $(document).ready(function() {
     setTimeout(changeBackground, 8000);
-    $('.box').click(function() {
-	$(this).animate({
+    $('input[type="submit"]').click(function() {
+	$(this).parent().parent().animate({
             left: '-50%'
 	}, 500, function() {
-            $(this).css('left', '150%');
-            $(this).appendTo('#container');
+            $(this).parent().parent().css('left', '150%');
+            //$(this).parent().parent().appendTo('#container');
 	});
 	
-	$(this).next().animate({
+	$(this).parent().parent().next().animate({
             left: '50%'
 	}, 500);
     });
