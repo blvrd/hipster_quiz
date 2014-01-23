@@ -4,85 +4,100 @@
 <div class="box" id="box1">
   <h2>What kind of music do you listen to?</h2>
   <%= form_tag "/quizzes", remote: true do %>
+
     <%= radio_button_tag :score, 0 %>
     <%= label_tag "Top 40" %>
     <%= radio_button_tag :score, 1 %>
     <%= label_tag "Arcade Fire" %>
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "You've probably never heard of it..." %>
-    <%= submit_tag 'Next Question... Man' %>
+
+    <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
 </div>
 <div class="box" id="box2">
   <h2>Where do you shop for clothes?</h2>
   <%= form_tag "/quizzes", remote: true do %>
-    <%= radio_button_tag :score, 0 %>
-    <%= label_tag "J. Crew" %>
+
     <%= radio_button_tag :score, 1 %>
     <%= label_tag "Urban Outfitters" %>
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "Thrift stores" %>
-    <%= submit_tag 'Next Question... Man' %>
+    <%= radio_button_tag :score, 0 %>
+    <%= label_tag "J. Crew" %>
+
+    <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
 </div>
 <div class="box" id="box3">
   <h2>Where do you buy your coffee?</h2>
   <%= form_tag "/quizzes", remote: true do %>
-    <%= radio_button_tag :score, 0 %>
-    <%= label_tag "Starbucks" %>
+
     <%= radio_button_tag :score, 1 %>
     <%= label_tag "Intelligentsia" %>
+    <%= radio_button_tag :score, 0 %>
+    <%= label_tag "Starbucks" %>
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "The Wormhole in Wicker Park" %>
-    <%= submit_tag 'Next Question... Man' %>
+
+    <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
 </div>
 <div class="box" id="box4">
   <h2>If it is a brisk day, what item of clothing do you grab?</h2>
   <%= form_tag "/quizzes", remote: true do %>
-    <%= radio_button_tag :score, 0 %>
-    <%= label_tag "Vineyard Vines pullover" %>
+
     <%= radio_button_tag :score, 1 %>
     <%= label_tag "Tight striped sweater" %>
+    <%= radio_button_tag :score, 0 %>
+    <%= label_tag "Vineyard Vines pullover" %>
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "Just my overalls" %>
-    <%= submit_tag 'Next Question... Man' %>
+
+
+    <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
 </div>
 <div class="box" id="box5">
   <h2>Preferred employment:</h2>
   <%= form_tag "/quizzes", remote: true do %>
-    <%= radio_button_tag :score, 0 %>
+
+    <%= radio_button_tag :score, 2 %>
     <%= label_tag "Coffee shop barista" %>
+    <%= radio_button_tag :score, 0 %>
+    <%= label_tag "Investment banker" %>
     <%= radio_button_tag :score, 1 %>
     <%= label_tag "Designer" %>
-    <%= radio_button_tag :score, 2 %>
-    <%= label_tag "Investment banker" %>
-    <%= submit_tag 'Next Question... Man' %>
+
+    <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
 </div>
 <div class="box" id="box6">
   <h2>What is your favorite Chicago neighborhood?</h2>
   <%= form_tag "/quizzes", remote: true do %>
+
     <%= radio_button_tag :score, 0 %>
     <%= label_tag "Wrigleyville" %>
-    <%= radio_button_tag :score, 1 %>
-    <%= label_tag "Lincoln Park" %>
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "Wicker Park" %>
-    <%= submit_tag 'Next Question... Man' %>
+    <%= radio_button_tag :score, 1 %>
+    <%= label_tag "Lincoln Park" %>
+
+    <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
 </div>
 <div class="box" id="box7">
   <h2>How do you listen to music?</h2>
   <%= form_tag "/quizzes", remote: true do %>
-    <%= radio_button_tag :score, 0 %>
-    <%= label_tag "iPod" %>
+
     <%= radio_button_tag :score, 1 %>
     <%= label_tag "CDs" %>
+    <%= radio_button_tag :score, 0 %>
+    <%= label_tag "iPod" %>
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "Vinyl" %>
-    <%= submit_tag 'Next Question... Man' %>
+
+    <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
 </div>
 <div class="box" id="box8">
@@ -94,7 +109,7 @@
     <%= label_tag "Curly mustache" %>
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "Big ol' mutton chops" %>
-    <%= submit_tag 'Next Question... Man' %>
+    <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
 </div>
 <div class="box" id="box9">
@@ -106,7 +121,7 @@
     <%= label_tag "Pen & paper" %>
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "Typewriter" %>
-    <%= submit_tag 'Next Question... Man' %>
+    <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
 </div>
 <div class="box" id="box10">
@@ -118,6 +133,6 @@
     <%= label_tag "3-5 times per week" %>
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "Showers are like so... corporate" %>
-    <%= submit_tag 'Enough Already!' %>
+    <%= submit_tag 'Enough Already!', class: 'button' %>
   <% end %>
 </div>

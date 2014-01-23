@@ -26,6 +26,7 @@ body {
     margin-left: -25%;
     background-color: fade-out(white, .5);
     font-size: 24px;
+    font-family: 'Rambla', serif;
     display: block;
 
     h2 {
@@ -49,4 +50,17 @@ h1 {
 	transition: border-bottom .2s;
 	border-bottom: 5px solid white;
     }
+}
+
+.button {
+    font-size: 16px;
+    background-color: #FF5334;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #90739B;
+}
+
+.button:focus {
+    outline: none;
 }
