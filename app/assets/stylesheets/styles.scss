@@ -19,24 +19,25 @@ body {
     position: absolute;
     width: 50%;
     height: 300px;
-    line-height: 300px;
-    font-size: 50px;
+    line-height: 75px;
     text-align: center;
     left: 150%;
     top: 150px;
     margin-left: -25%;
     background-color: fade-out(white, .5);
+    font-size: 24px;
 }
 
 #box1 {
     left: 50%;
+    font-size: 24px;
 }
 
 h1 {
     font-family: 'Arvo', serif;
     font-size: 50px;
     position: absolute;
-    text-align: center; 
+    text-align: center;
     color: white;
 
     &:hover {
@@ -44,4 +45,3 @@ h1 {
 	border-bottom: 5px solid white;
     }
 }
-
