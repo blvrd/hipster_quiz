@@ -24,9 +24,10 @@ body {
     left: 150%;
     top: 150px;
     margin-left: -25%;
-    background-color: fade-out(white, .5);
+    background-color: fade-out(black, .3);
     font-size: 24px;
     font-family: 'Rambla', serif;
+    color: #FFDD7A;
     display: block;
 
     h2 {
@@ -59,6 +60,9 @@ h1 {
     -webkit-border-radius: 10px;
     padding: 5px;
     border: 1px solid #90739B;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0px 2px 2px 0px #90739B;
 }
 
 .button:focus {

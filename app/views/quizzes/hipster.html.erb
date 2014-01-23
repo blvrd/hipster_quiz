@@ -6,11 +6,11 @@
   <%= form_tag "/quizzes", remote: true do %>
 
     <%= radio_button_tag :score, 0 %>
-    <%= label_tag "Top 40" %>
+    <%= label_tag :score, "Top 40" %>
     <%= radio_button_tag :score, 1 %>
-    <%= label_tag "Arcade Fire" %>
+    <%= label_tag :score,  "Arcade Fire" %>
     <%= radio_button_tag :score, 2 %>
-    <%= label_tag "You've probably never heard of it..." %>
+    <%= label_tag :score, "You've probably never heard of it..." %>
 
     <%= submit_tag 'Next Question... Man', class: 'button' %>
   <% end %>
@@ -65,7 +65,7 @@
     <%= radio_button_tag :score, 2 %>
     <%= label_tag "Coffee shop barista" %>
     <%= radio_button_tag :score, 0 %>
-    <%= label_tag "Investment banker" %>
+    <%= label_tag :score, "Investment banker" %>
     <%= radio_button_tag :score, 1 %>
     <%= label_tag "Designer" %>
 
