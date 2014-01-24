@@ -19,24 +19,32 @@ body {
     position: absolute;
     width: 50%;
     height: 300px;
-    line-height: 300px;
-    font-size: 50px;
+    line-height: 75px;
     text-align: center;
     left: 150%;
     top: 150px;
     margin-left: -25%;
-    background-color: fade-out(white, .5);
+    background-color: fade-out(black, .3);
+    font-size: 24px;
+    font-family: 'Rambla', serif;
+    color: white;
+    display: block;
+
+    h2 {
+        font-size: 30px;
+    }
 }
 
 #box1 {
     left: 50%;
+    font-size: 24px;
 }
 
 h1 {
     font-family: 'Arvo', serif;
     font-size: 50px;
     position: absolute;
-    text-align: center; 
+    text-align: center;
     color: white;
 
     &:hover {
@@ -88,3 +96,18 @@ progress[value]::-webkit-progress-value::before {
     position: relative;
 }
 
+.button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #FF5334;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    // box-shadow: 0px 2px 2px 0px #90739B;
+}
+
+.button:focus {
+    outline: none;
+}
