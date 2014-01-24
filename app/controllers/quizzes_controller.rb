@@ -1,7 +1,6 @@
 class QuizzesController < ApplicationController
   def hipster
     @score = Score.new
-    @score.session = cookies[:_hipster_quiz_session]
     @score.save
   end
 
