@@ -1,58 +1,9 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-* {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  background-position: 0 0; }
-
 body {
   padding: 0px;
   background: black; }
 
 #container {
-  background: image-url("hipster1.jpg");
+  background: url("hipster1.jpg");
   background-size: cover;
   position: absolute;
   margin: 0px;
@@ -101,21 +52,13 @@ progress {
 
 progress[value]::-webkit-progress-value {
   background: #90739b;
-  /* Old browsers */
   background: -moz-linear-gradient(-45deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
-  /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #90739b), color-stop(30%, #ff5334), color-stop(63%, #90739b), color-stop(100%, #ff5334));
-  /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(-45deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
-  /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(-45deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
-  /* Opera 11.10+ */
   background: -ms-linear-gradient(-45deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
-  /* IE10+ */
   background: linear-gradient(135deg, #90739b 0%, #ff5334 30%, #90739b 63%, #ff5334 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90739b', endColorstr='#ff5334',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#90739b', endColorstr='#ff5334',GradientType=1 ); }
 
 progress[value]::-webkit-progress-value::before {
   content: '';
