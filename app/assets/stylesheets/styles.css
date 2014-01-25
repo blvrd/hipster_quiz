@@ -46,8 +46,8 @@ h1 {
 progress {
   position: absolute;
   display: none;
-  top: 320px;
-  left: 450px !important;
+  top: 230px;
+  left: 121px !important;
   font-size: 40px; }
 
 progress[value]::-webkit-progress-value {
@@ -74,8 +74,8 @@ progress[value]::-webkit-progress-value::before {
 .status {
   text-align: center;
   display: none;
-  top: 250px;
-  left: 40% !important;
+  top: 90px;
+  left: 28% !important;
   width: 300px;
   height: 100px;
   position: relative; }
