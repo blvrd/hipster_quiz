@@ -1,7 +1,15 @@
 <div id="container"></div>
 
 <h1>How Hipster Are You?</h1>
-<div class="box" id="box1">
+<div id="box1" class="box">
+  <div id="hello">
+  <p>Are you a hipster? Take the quiz!</p>
+  </div>
+  <%= form_tag '/quizzes', remote: true do %>
+    <%= submit_tag "Begin!", class: 'button' %>
+  <% end %>
+</div>
+<div class="box" id="">
   <h2>What kind of music do you listen to?</h2>
   <%= form_tag "/quizzes", remote: true do %>
 
@@ -144,4 +152,3 @@
   </div>
   <progress max="100" value="0"></progress>
 </div>
-
